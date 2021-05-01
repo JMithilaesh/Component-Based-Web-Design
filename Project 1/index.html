@@ -1,0 +1,77 @@
+<!-- Author : Mithilaesh Jayakumar
+     GNumber : G01206238 -->
+<!-- Home Page -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>
+    Home Page
+  </title>
+  <link rel="stylesheet" href="indexstyle.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <div>
+    <h3>
+      Home Page
+    </h3>
+    <p>
+      <i>
+        <br>
+        Component-based software engineering (CBSE), also called components-based development (CBD), is a branch of software engineering that emphasizes the separation of concerns with respect to the wide-ranging functionality available throughout a given software system. It is a reuse-based approach to defining, implementing and composing loosely coupled independent components into systems. This practice aims to bring about an equally wide-ranging degree of benefits in both the short-term and the long-term for the software itself and for organizations that sponsor such software.
+        <br>
+        <br>
+        Software engineering practitioners regard components as part of the starting platform for service-orientation. Components play this role, for example, in web services, and more recently, in service-oriented architectures (SOA), whereby a component is converted by the web service into a service and subsequently inherits further characteristics beyond that of an ordinary component.
+        <br>
+        <br>
+        Components can produce or consume events and can be used for event-driven architectures (EDA).
+        <br>
+        <br>
+      </i>
+    </p>
+    <br>
+    <br>
+    <br>
+    <center>
+      <img class="imgs" src="images/m1.jpg">
+      <img class="imgs" src="images/m2.jpg">
+      <img class="imgs" src="images/m3.jpg">
+      <img class="imgs" src="images/m4.jpg">
+      <img class="imgs" src="images/m5.jpg">
+      <img class="imgs" src="images/m6.jpg">
+      <img class="imgs" src="images/m6.jpg">
+      <img class="imgs" src="images/m7.jpg">
+      <img class="imgs" src="images/m8.jpg">
+      <img class="imgs" src="images/m9.jpg">
+      <img class="imgs" src="images/m10.jpg">
+    </center>
+    <br>
+    <br>
+    <br>
+    <br>
+    <center>
+      <button onclick="window.location.href = 'studentsurvey.html';">
+        Student Survey Form
+      </button>
+    </center>
+    <br>
+    <br>
+  </div>
+  <script>
+  var myIndex = 0;
+  carousel();
+  function carousel() {
+    var i;
+    var x = document.getElementsByClassName("imgs");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+  }
+</script>
+</body>
+</html>

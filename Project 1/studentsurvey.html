@@ -1,0 +1,150 @@
+<!-- Author : Mithilaesh Jayakumar
+     GNumber : G01206238 -->
+<!-- Student Survey Form -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>
+    Student Survey Form
+  </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="studentsurveystyles.css">
+</head>
+<body>
+  <center>
+    <div class="container">
+      <h1>
+        Student Survey Form
+      </h1>
+      <br>
+      <br>
+      <form id="survey-form" action="#">
+        <label for="first name" id="first-name-label">
+          First Name
+          <br>
+          <input id="first name" type="text" name="first name" placeholder="Enter your first name" required>
+        </label>
+        <br>
+        <br>
+        <label for="last name" id="last-name-label">
+          Last Name
+          <br>
+          <input id="last name" type="text" name="last name" placeholder="Enter your last name" required>
+        </label>
+        <br>
+        <br>
+        <label for="street address" id="street-address-label">
+          Street Address
+          <br>
+          <input id="street address" type="text" name="street address" placeholder="Enter your street address" required>
+        </label>
+        <br>
+        <br>
+        <label for="city" id="city-label">
+          City
+          <br>
+          <input id="city" type="text" name="city" placeholder="Enter your city" required>
+        </label>
+        <br>
+        <br>
+        <label for="state" id="state-label">
+          State
+          <br>
+          <input id="state" type="text" name="state" placeholder="Enter your state" required>
+        </label>
+        <br>
+        <br>
+        <label for="zip" id="zip-label">
+          Zip
+          <br>
+          <input id="zip" type="text" name="zip" placeholder="Enter your zip" required>
+        </label>
+        <br>
+        <br>
+        <label for="telephone number" id="telephone-number-label">
+          Telephone Number
+          <br>
+          <input id="telephone number" type="text" name="telephone number" placeholder="Enter your telephone number" required>
+        </label>
+        <br>
+        <br>
+        <label for="email" id="email-label">
+          Email
+          <br>
+          <input id="email" type="text" name="email" placeholder="Enter your email" required>
+        </label>
+        <br>
+        <br>
+        <label for="survey date" id="survey-date-label">
+          Survey Date
+          <br>
+          <input id="survey date" type="text" name="survey date" placeholder="Enter your survey date" required>
+        </label>
+        <br>
+        <br>
+        <label for="campus preferred" id="campus-preferred-label">
+          What you like most about the campus?
+          <br>
+          <br>
+          <input type="checkbox" name="campus preferred" value="students">Students<input type="checkbox" name="campus preferred" value="location">Location<input type="checkbox" name="campus preferred" value="campus">Campus<input type="checkbox" name="campus preferred" value="atmosphere">Atmosphere<input type="checkbox" name="campus preferred" value="dorm rooms">Dorm rooms<input type="checkbox" name="campus preferred" value="sports">Sports
+        </label>
+        <br>
+        <br>
+        <label for="interest" id="interest-label">
+          Why interested in specific for this University?
+          <br>
+          <br>
+          <input type="radio" name="interest" value="friends">Friends<input type="radio" name="interest" value="television">Television<input type="radio" name="interest" value="internety">Internety<input type="radio" name="interest" value="others">Others</label>
+          <br>
+          <br>
+          <label for="recommend" id="recommend-label">
+            Would you recommend this school to other prospective students?
+            <br>
+            <br>
+            <select name="opinions" id="recommend">
+              <option value="Very Likely">
+                Very Likely
+              </option>
+              <option value="Likely">
+                Likely
+              </option>
+              <option value="Unlikely">
+                Unlikely
+              </option>
+            </select>
+          </label>
+          <br>
+          <br>
+          <label for="raffle" id="raffle-label">
+            Raffle
+            <br>
+            <br>
+            <input id="raffle" type="text" name="raffle" placeholder="Enter at least ten comma separated numbers ranging from 1 through 100" required size="60">
+          </input>
+        </label>
+        <br>
+        <br>
+        <label for="comments" id="comments-label">
+          Any Comments or Suggestions?
+          <br>
+          <br>
+          <textarea id="comments" type="text" name="comments" required rows="20" cols="35">
+          </textarea>
+        </label>
+        <br>
+        <br>
+        <label for="submit" id="submit-label">
+          <input id="submit" type="submit" value="Submit">
+        </label>
+        <label for="cancel" id="cancel-label" >
+          <input id="cancel" type="submit" value="Cancel">
+        </label>
+        <label for="back" id="back-label" >
+          <input id="back" type="submit" value="Back" onclick="window.location.href = 'index.html';">
+        </label>
+      </form>
+    </div>
+  </center>
+</body>
+</html>

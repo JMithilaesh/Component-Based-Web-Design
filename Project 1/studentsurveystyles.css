@@ -1,0 +1,37 @@
+/* Author : Mithilaesh Jayakumar
+     GNumber : G01206238    */
+/* CSS for Student Survey Form Page */
+body
+{
+  background-image: url('images/mason.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+h1
+{
+  color: Orange;
+  font-family: sans-serif;
+  font-size:40px;
+  text-align:center;
+}
+@media screen and (max-width: 992px)
+{
+  .container
+  {
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
+.container
+{
+  background-color: rgba(0, 0, 0, 0.5);
+  color: White;
+  max-width: 100%;
+  max-height: 100%;
+  font-family: sans-serif;
+  font-size: 20px;
+  display:inline-block;
+  padding: 50px 50px 50px 50px;
+  border-radius: 20px;
+}

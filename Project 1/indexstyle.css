@@ -1,0 +1,74 @@
+/* Author : Mithilaesh Jayakumar
+     GNumber : G01206238    */
+/* CSS for the Home Page */
+body
+{
+  background-image: url('images/mason.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+@media screen and (max-width: 992px)
+{
+  img
+  {
+    max-width: 80%;
+    max-height: 80%;
+  }
+  button
+  {
+    font-size: 10px;
+  }
+  p
+  {
+    font-size: 20px;
+  }
+  h3
+  {
+    font-size: 40px;
+  }
+}
+h3
+{
+  color: Orange;
+  font-family:sans-serif,cursive;
+  font-size: 40px;
+  font-weight: normal;
+  line-height: 60px;
+  margin: 10px 0 20px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 0 #000, margin: 10px 0 24px;
+  text-align: center;
+}
+p
+{
+  color: White;
+  font-family: 'Orienta', sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 0 0 24px;
+  text-align: justify;
+}
+button
+{
+  background-color: rgb(255, 255, 255);
+  color: Black;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 10px;
+  border-radius: 20px;
+  border-style: none;
+}
+.img
+{
+  max-width: 80%;
+  max-height: 80%;
+  display:none;
+}
+div
+{
+  background-color: rgba(0, 0, 0,0.6);
+  border-radius: 10px;
+  padding: 20px 20px 20px 20px;
+}
